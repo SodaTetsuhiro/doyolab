@@ -10,54 +10,106 @@
 
 
 <body>
-    <logo>
-        <!--logoはimageフォルダのlogo.pngを使用している。自分のロゴや写真を載せるとわかりやすい-->
-        <img src="images/logo.png" alt="">
-    </logo>
-    <br><br><!--brは改行-->
-    <!--毎週この部分をコピペして追加してく-->
-    <figure>
-        <a href="git.html"><img src="images/githubpages.png" alt=""></a>
-        <figcaption>GitHubPages</figcaption>
-    </figure>
-     <!-------------------------------->
-    <!--毎週この部分をコピペして追加してく-->
-    <figure>
-        <a href="htmlmemo.html"><img src="images/02html.jpg" alt=""></a>
-        <figcaption>HTMLについて</figcaption>
-    </figure>
-     <!-------------------------------->
-     <br>
-     <a href="https://www.yahoo.co.jp/">早田哲裕</a>
-     <img src="images/logo.png" height="100">
-     <br>
-     <EM>あありりん</EM>
-     <DFN>西東</DFN>
-     <U>斜体</U>
-     <br>
-     <SUB>これが下付き文字</SUB>
-     <STRIKE>あああああああ</STRIKE>
-     <ul>
-       <li>ワカシ
-         <li>イナダ
-           <li>ワラサ
-             <li>ブリ
-     </ul>
-    
-    <figure>  
-     <a href="https://sodatetsuhiro.github.io/doyolab/">
-      <img src="images/logo.png" height="200" width="1000" border="9" >
-      </a>
-    </figure>
+ <h1>合宿1日目：まとめ</h1>
+ <h2>○git用フォルダの作成</h2>
+  <p>
+    ターミナルを起動し、
+    <font color="0033FF"><b>mkdir フォルダ名</b></font>
+    を実行。
+  </p>
+ <h2>○gitの設定</h2>
+  <p>
+    <font color="0033FF"><b>git init</b></font>
+    →初期設定のコマンド
+    <br>
+    <font color="0033FF"><b>git config --global user.email"自分のメアド"</b></font>
+    →メールアドレスの設定
+    <br>
+    <font color="0033FF"><b>git config --global user.name"名前（アルファベット）</b></font>
+    →ユーザー名の設定
+  </p>
+ <h2>○GitHubの使い方</h2>
+  <h3>・リポジトリの作成</h3>
+  <p>
+    右上の＋のボタンをクリックし、
+    「New repository」
+    を選択。
+    <br>
+    ↓
+    <br>
+    「Repository name」
+    に名前を入力。
+    <br>
+    「Public」
+    と
+    「Add a README file」
+    を選択し、
+    「Create repository」
+    をクリック。
+    <br>
+    ↓
+    <br>
+    リポジトリ完成
+  </p>
+  <h3>・アクセストークンの作成</h3>
+  <p>
+    自分のアイコンをクリックし、
+    「Setting」
+    を選択
+    <br>
+    ↓
+    <br>
+    「Developper setting」
+    をクリック
+    <br>
+    ↓
+    <br>
+    「Personal access tokens」
+    をクリック
+    <br>
+    ↓
+    <br>
+    「generate new token」
+    をクリックし、パスワードを入力
+    <br>
+    ※アクセストークンはコピペしておく。
+  </p>
+  <h3>・リポジトリーをクローンする</h3>
+  <p>
+    <font color="0033FF"><b>cd mygit</b></font>
+    のコマンドを実行し、mygit（専用に作ったフォルダ）に移動。
+    <br>
+    ↓
+    <br>
+    <font color="0033FF"><b>git clone リポジトリのURL</b></font>
+    を実行する。
+    <br>
+    ↓
+    <br>
+    repository nameで設定した名前のフォルダができているか確認。あと、そのフォルダの中の「README.md」も
+  </p>
+  <h3>・公開（ファイルの追加、変更の時も）</h3>
+  <p>
+    次のコマンドを順に実行
+    <br>
+    <font color="0033FF"><b>cd フォルダ名/リポジトリー名</b></font>
+    <br>
+    <font color="0033FF"><b>git add .</b></font>
+    <br>
+    <font color="0033FF"><b>git commit -m"メッセージ"</b></font>
+    <br>
+    <font color="0033FF"><b>git push</b></font>
+  </p>
 
-    <figure>
-      <img src="images/logo.png" style="background-color: black;" border="9, color:red;">
-
-    </figure>
-
-
-
-
-
+ <h2>○Visual Sutudio Codeの使い方</h2>
+  <h3>・プレビュー機能</h3>
+  <p>
+    T字虫眼鏡アイコンをクリック
+  </p>
+  <h3>・htmlの始め方</h3>
+  <p>
+    htmlファイルをエクスプローラーの欄にドラッグ
+  </p>
+ <h2></h2>
 
 </body>
