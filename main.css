@@ -129,3 +129,8 @@ span.blackback{
     background: #393939;
     color: #efefef;
 }
+
+.cp_h1title {
+	padding: .3em;
+	border-bottom: 3px double #0097A7;
+}
